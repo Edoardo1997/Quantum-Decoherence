@@ -11,6 +11,6 @@ There are two main files which are relevant, everything else produce other mater
 2. view.py : This file will plot the evaluated data, what is shown is a 3D graph which shows how certain states (the non-coherent ones) goes to zero faster than others (the coherent one) over time when they evolve according to Caldeira-Legget equations, thus showing how a base is naturally selected (decoherence).
 
 # How to run my script?
-1. To create new data: from terminal navigate to this directory and then run 'python3 Decoherence.py'
-2. To visualize the produced data: from this directory run 'python3 view.py'
+1. To create new data: from terminal navigate to this directory and then run 'python3 Decoherence.py'.
+2. To visualize the produced data: from this directory run 'python3 view.py'.
 I have put also some data from a more serious calculation (they took a a couple of hours to be produced), if you want to visualize them just change the path in 'view.py' : '/pickle_out.txt' -> '/save/pickle_out.txt'. 
