@@ -24,4 +24,4 @@ python3 Decoherence.py
 ```
 python3 view.py
 ```
-I have put also some data from a more serious calculation (they took a a couple of hours to be produced), if you want to visualize them just change the path in 'view.py' : '/pickle_out.txt' -> '/save/pickle_out.txt'. 
+I have put also some data from a more serious calculation (they took a a couple of hours to be produced), if you want to visualize them just change the path in view.py : /pickle_out.txt -> /save/pickle_out.txt. 
