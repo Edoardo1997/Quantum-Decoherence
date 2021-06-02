@@ -1,6 +1,6 @@
 # Quantum-Decoherence
 
-This repository contains several script that I have used to study the phenomenon of quantum decoherence, my results are a personal revisitation of previous results contained in important literature in the field. I exposed in the past my results in a presentation [the presentations slide](https://github.com/Edoardo1997/Quantum-Decoherence/blob/main/Presentation.pdf) (in Italian) explains in detail the extent of my work
+This repository contains several script that I have used to study the phenomenon of quantum decoherence, my results are a personal revisitation of previous results contained in important literature in the field. I exposed them in the past in a presentation whiose [slide](https://github.com/Edoardo1997/Quantum-Decoherence/blob/main/Presentation.pdf) (in Italian) explains in detail the extent of my work
 # What have I done?
 
 I have developed an alternating direction Crank-Nicolson algoirthm to solve numerically Caldeira-Legget equations to study the evolution of an harmonic oscillator in touch with an external bath. I showed numerically that when the system is underdamped the environment act naturally selecting a preferred base of the Hilbert space (more specifically the set of coherent states which are overcomplete).
