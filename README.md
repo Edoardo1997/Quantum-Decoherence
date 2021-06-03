@@ -52,7 +52,8 @@ python3 Decoherence.py
 ```
 python3 View.py
 ```
-I have also put some data from a more serious calculation (they took a couple of hours to be produced), if you want to visualize them, just change the path in View.py : /pickle_out.txt -> /save/pickle_out.txt. 
+I have also put some data from a more serious calculation (they took a couple of hours to be produced), if you want to visualize them, just change the path in View.py : /pickle_out.txt -> /save/pickle_out.txt.
+
 4. To create the other pictures that I have used 
 ```
 python3 images-source/Cat_evol.py
