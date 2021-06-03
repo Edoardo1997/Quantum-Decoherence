@@ -79,13 +79,18 @@ $ python3 images-source/Wigner.py
 $ deactivate
 ```
 ## References    
-- Authors: Wojciech H. Zurek
+- Authors: Wojciech H. Zurek  
   Title: “Decoherence and the Transition from Quantum to Classical - Revisited”  
-  In: Progress in Mathematical Physics, vol 48 (2006).
-  DOI: [10.1007/978-3-7643-7808-0_1](https://doi.org/10.1007/978-3-7643-7808-0_1)
+  In: Progress in Mathematical Physics, vol 48 (2006).  
+  DOI: [10.1007/978-3-7643-7808-0_1](https://doi.org/10.1007/978-3-7643-7808-0_1)  
 
-- Authors: Heinz-Peter Breuer and Francesco Petruccione   
-  Title: “The Theory of Open Quantum Systems”
-  In: Oxford University Press (2002).
+- Authors: Heinz-Peter Breuer and Francesco Petruccione  
+  Title: “The Theory of Open Quantum Systems”  
+  In: Oxford University Press (2002).  
   DOI: [0.1093/acprof:oso/9780199213900.001.0001](http://dx.doi.org/10.1093/acprof:oso/9780199213900.001.0001)
+  
+- Authors: Frank Grossmann and Werner Koch
+  Title: “A finite-difference implementation of the Caldeira–Leggett master equation”  
+  In: J. Chem. Phys. 130, 034105 (2009).
+  DOI: [10.1063/1.3059006](https://doi.org/10.1063/1.3059006)  
        
