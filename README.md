@@ -89,8 +89,8 @@ $ deactivate
   In: Oxford University Press (2002).  
   DOI: [0.1093/acprof:oso/9780199213900.001.0001](http://dx.doi.org/10.1093/acprof:oso/9780199213900.001.0001)
   
-- Authors: Frank Grossmann and Werner Koch
-  Title: “A finite-difference implementation of the Caldeira–Leggett master equation”  
-  In: J. Chem. Phys. 130, 034105 (2009).
-  DOI: [10.1063/1.3059006](https://doi.org/10.1063/1.3059006)  
+- Authors: Frank Grossmann and Werner Koch  
+  Title: “A finite-difference implementation of the Caldeira–Leggett master equation”    
+  In: J. Chem. Phys. 130, 034105 (2009).  
+  DOI: [10.1063/1.3059006](https://doi.org/10.1063/1.3059006)    
        
