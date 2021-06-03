@@ -78,3 +78,10 @@ $ python3 images-source/Wigner.py
 ```bash
 $ deactivate
 ```
+## References
+- “Decoherence and the Transition from Quantum to Classical - Revisited” Wojciech H. Zurek   
+  In: Progress in Mathematical Physics, vol 48 (2006).
+  DOI: [10.1007/978-3-7643-7808-0_1](https://doi.org/10.1007/978-3-7643-7808-0_1)
+- “The Theory of Open Quantum Systems” Heinz-Peter Breuer and Francesco Petruccione   
+  In: Oxford University Press (2002).
+  DOI: [0.1093/acprof:oso/9780199213900.001.0001](http://dx.doi.org/10.1093/acprof:oso/9780199213900.001.0001)
