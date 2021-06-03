@@ -31,6 +31,6 @@ python3 View.py
 I have put also some data from a more serious calculation (they took a a couple of hours to be produced), if you want to visualize them just change the path in View.py : /pickle_out.txt -> /save/pickle_out.txt. 
 5. To create the other pictures that I have used 
 ```
-python3 Cat_evol.py
-python3 Wigner.py
+python3 images-source/Cat_evol.py
+python3 images-source/Wigner.py
 ```
