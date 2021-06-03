@@ -70,6 +70,8 @@ I have also put some data from a more serious calculation (they took a couple of
 6. To create the other pictures that I have used 
 ```
 python3 images-source/Cat_evol.py
+```
+```
 python3 images-source/Wigner.py
 ```
 7. Exit from the virtual environment
