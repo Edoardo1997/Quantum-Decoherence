@@ -1,9 +1,11 @@
 # Quantum-Decoherence
 
-This repository contains several scripts that I have used to study the phenomenon of quantum decoherence; my results are a personal revisitation of previous results contained in important literature in the field. I presented them in the past, in [the slide](https://github.com/Edoardo1997/Quantum-Decoherence/blob/main/Presentation.pdf) (in Italian) I explain in detail the extent of my work.
+This repository contains several scripts that I have used to study the phenomenon of quantum decoherence; my results are a personal revisitation of previous results contained in important literature in the field.  
+I presented them in the past, in [the slide](https://github.com/Edoardo1997/Quantum-Decoherence/blob/main/Presentation.pdf) (in Italian) I explain in detail the extent of my work.
 # What have I done?
 
-I have studied numerically the phenomenon of decoherence, one of the mechanisms that allow for the emergence of classical reality from the quantum world. The system under analysis is a harmonic oscillator in touch with a thermal bath. I want to show how the interaction with some external environment can force the selection of a preferred basis with classical properties. Thus I solved the equation that rules this system (Caldeira-Legget master equation) numerically. 
+I have studied numerically the phenomenon of decoherence, one of the mechanisms that allow for the emergence of classical reality from the quantum world.  
+The system under analysis is a harmonic oscillator in touch with a thermal bath. I want to show how the interaction with some external environment can force the selection of a preferred basis with classical properties. I solved the equation that rules this system (Caldeira-Legget master equation) numerically. 
 
 The equation is a PDE in three variables and requires some attention to be solved maintaining numerical stability. I found out that the alternating direction Crank-Nicolson algorithm works perfectly and developed it. 
 The algorithm computes the evolution of squeezed states showing how all states with squeezing die very fastly and a natural base of coherent states (which are famously states with classical properties) is selected.
@@ -21,7 +23,7 @@ A visual representation of this phenomenon can be seen by plotting the density m
   <img src="/images/cat_final.png" width="300" /> 
 </p>
 
-The coherence terms vanish exponentially over time.
+The coherence terms vanish exponentially over time.  
 Similarly, the same phenomenon can be noticed in the Wigner representation (where it's more clear what is classical and what is not as negative values are an indicator of quantumness)
 
 <p float="left">
@@ -31,7 +33,7 @@ Similarly, the same phenomenon can be noticed in the Wigner representation (wher
   
 # What is in the various file?
 
-There are two main files that are relevant, everything else produces other material which was relevant for my presentation, but that is not related to the Crank-Nicolson algorithm.
+There are two main files that are relevant, everything else produces other material which was relevant for my presentation, but that is not related to the Crank-Nicolson algorithm.  
 1. Decoherence.py: This file is responsible for the main computations, while real numerical simulations can take several hours, I've left some parameters which allows for a fast run (a few seconds). The data produced are stored in a file of byte with the Pickle library of Python, they can be plotted by View.py.
 2. View.py: This file will plot the evaluated data. What it shows is a 3D graph which displays how certain states (the non-coherent ones) vanish faster than others (the coherent one) over time when they evolve according to Caldeira-Legget equations, thus showing how a base is naturally selected (decoherence).
 
