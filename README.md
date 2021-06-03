@@ -39,7 +39,7 @@ There are other files responsible for the creation of pictures that I have used 
 1. Cat_evol.py: Show the effect of quantum decoherence on the coherence terms of a quantum superposition that derives from the analytical solutions of the master equation in this case. 
 2. Wigner.py: Show the same effect, but instead of using density matrix to represent the states, I used Wigner representation.
 
-# How to run my script?
+# How to run the code?
 1. Clone this repository and move inside it
 ```
 git clone https://github.com/Edoardo1997/Quantum-Decoherence.git
@@ -53,11 +53,11 @@ pip install -r requirements.txt
 ```
 4. To create new data: from terminal navigate to this directory and then run 
 ```
-python3 Decoherence.py
+python3 source/Decoherence.py
 ```
 3. To visualize the produced data: from this directory run
 ```
-python3 View.py
+python3 source/View.py
 ```
 I have also put some data from a more serious calculation (they took a couple of hours to be produced), if you want to visualize them, just change the path in View.py : /pickle_out.txt -> /save/pickle_out.txt.
 
