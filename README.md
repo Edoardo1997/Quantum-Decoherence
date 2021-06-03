@@ -2,7 +2,7 @@
 
 This repository contains several scripts that I have used to study the phenomenon of quantum decoherence; my results are a personal revisitation of previous results contained in important literature in the field.  
 I presented them in the past, in [the slide](https://github.com/Edoardo1997/Quantum-Decoherence/blob/main/Presentation.pdf) (in Italian) I explain in detail the extent of my work.
-# What have I done?
+# Brief explanation of my work
 
 I have studied numerically the phenomenon of decoherence, one of the mechanisms that allow for the emergence of classical reality from the quantum world.  
 The system under analysis is a harmonic oscillator in touch with a thermal bath. I want to show how the interaction with some external environment can force the selection of a preferred basis with classical properties. I solved the equation that rules this system (Caldeira-Legget master equation) numerically. 
@@ -31,7 +31,7 @@ Similarly, the same phenomenon can be noticed in the Wigner representation (wher
   <img src="/images/Wigner_final.png" width="300" /> 
 </p>
   
-# What is in the various file?
+# How is this repository structured?
 
 There are two main files that are relevant, everything else produces other material which was relevant for my presentation, but that is not related to the Crank-Nicolson algorithm.  
 1. Decoherence.py: This file is responsible for the main computations, while real numerical simulations can take several hours, I've left some parameters which allows for a fast run (a few seconds). The data produced are stored in a file of byte with the Pickle library of Python, they can be plotted by View.py.
