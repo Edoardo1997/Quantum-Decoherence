@@ -45,28 +45,34 @@ There are other files responsible for the creation of pictures that I have used 
 git clone https://github.com/Edoardo1997/Quantum-Decoherence.git
 cd Quantum-Decoherence
 ```
-2. (Suggested) Create and set up a suitable virtual environment
+2. (Suggested) Create a virtual environment
 ```
 python3 -m venv quantumvenv
+```
+and activate it
+```
 source quantumvenv/bin/activate
+```
+3. Install requirements
+```
 pip install -r requirements.txt
 ```
 4. To create new data: from terminal navigate to this directory and then run 
 ```
 python3 source/Decoherence.py
 ```
-3. To visualize the produced data: from this directory run
+5. To visualize the produced data: from this directory run
 ```
 python3 source/View.py
 ```
 I have also put some data from a more serious calculation (they took a couple of hours to be produced), if you want to visualize them, just change the path in View.py : /pickle_out.txt -> /save/pickle_out.txt.
 
-4. To create the other pictures that I have used 
+6. To create the other pictures that I have used 
 ```
 python3 images-source/Cat_evol.py
 python3 images-source/Wigner.py
 ```
-5. Exit from the virtual environment
+7. Exit from the virtual environment
 ```
 deactivate
 ```
