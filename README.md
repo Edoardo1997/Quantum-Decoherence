@@ -40,11 +40,18 @@ There are other files responsible for the creation of pictures that I have used 
 2. Wigner.py: Show the same effect, but instead of using density matrix to represent the states, I used Wigner representation.
 
 # How to run my script?
-1. Clone this repository
+1. Clone this repository and move inside it
 ```
 git clone https://github.com/Edoardo1997/Quantum-Decoherence.git
+cd Quantum-Decoherence
 ```
-2. To create new data: from terminal navigate to this directory and then run 
+2. (Suggested) Create and set up a suitable virtual environment
+```
+python3 -m venv quantumvenv
+source quantumvenv/bin/activate
+pip install -r requirements.txt
+```
+4. To create new data: from terminal navigate to this directory and then run 
 ```
 python3 Decoherence.py
 ```
@@ -58,4 +65,8 @@ I have also put some data from a more serious calculation (they took a couple of
 ```
 python3 images-source/Cat_evol.py
 python3 images-source/Wigner.py
+```
+5. Exit from the virtual environment
+```
+deactivate
 ```
